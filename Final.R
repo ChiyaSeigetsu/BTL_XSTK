@@ -1,10 +1,10 @@
 # Cài đặt thư viện cần thiết
-install.packages("dplyr", dependencies = TRUE, quiet = TRUE)
-install.packages("geosphere", dependencies = TRUE, quiet = TRUE)
-install.packages("readxl", dependencies = TRUE, quiet = TRUE)
-install.packages("ggplot2", dependencies = TRUE, quiet = TRUE)
-install.packages("ggpubr", dependencies = TRUE, quiet = TRUE)
-install.packages("ROCR", dependencies = TRUE, quiet = TRUE)
+packages <- c("dplyr", "geosphere", "readxl", "ggplot2", "ggpubr", "ROCR")
+for (pkg in packages) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg, dependencies = NA, quiet = TRUE)
+  }
+}
 # Gọi thư viện cần thiết
 library(carData)
 library(car)
