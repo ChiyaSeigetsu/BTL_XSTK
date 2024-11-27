@@ -1,0 +1,43 @@
+I. Tổng quan dữ liệu:
+	1. Tổng quan về 3 tệp tin:
+	2. Các biến chính trong bộ dữ liệu:
+	3. Các bước thực hiện:
+II. Kiến thức nền tảng:
+	1. Phân tích hồi quy:
+		1.1. Định nghĩa:
+		1.2. Một số khái niệm cơ bản:
+			1.2.1. Các thành phần của hồi quy:
+			1.2.2. Các loại hồi quy cơ bản:
+	2. Hồi quy logistic và logistic nhị phân:
+		2.1 Hồi quy logistic:
+		2.2 Hồi quy Binary logistic:
+			2.2.1. Lý thuyết:
+			2.2.2. Phương trình:
+	3. Phân tích phương sai (Anova):
+		3.1. Phân tích phương sai 1 mẫu:
+			3.1.1. Tổng quan:
+			3.1.2. Các bước thực hiện:
+		3.2. Phân tích phương sai 2 mẫu (Anova 2 nhân tố):
+			3.2.1. Tổng quan:
+			3.2.2. Các bước thực hiện:
+III. Tiền xử lý dữ liệu:
+	1. Cài thư viện cần thiết:
+	2. Gọi thư viện cần xài:
+	3. Nhiệm vụ 1: Xử lý dữ liệu file dirty_data:
+		3.1. Đọc dữ liệu:
+		3.2. Làm sạch dữ liệu:
+			3.2.1. Tạo một tệp con bao gồm một số biến cần phân tích:
+			3.2.2. Kiểm tra dữ liệu khuyết:
+			3.2.3. Làm sạch các dữ liệu có trong một số cột có kiểu dữ liệu chr:
+	4. Nhiệm vụ 2: Xử lý dữ liệu file missing_data:
+IV. Thống kê mô tả:
+	1. Chuyển đổi kiểu dữ liệu:
+	2. Phân tích thống kê mô tả:
+		2.1. Tổng quát:
+		2.2. Phân tích chi tiết:
+		2.3. Xử lý ngoại lai:
+		2.4. Kiểm tra giả thiết phân phối chuẩn của biến order_total:
+V. Thống kê suy diễn:
+	1. So sánh trung bình về chi phí đặt hàng của khách hàng ở 3 kho hàng để xem có kho hàng nào mà chi phí đặt hàng nhiều hơn không?
+	2. So sánh trung bình về chi phí đặt hàng của khách hàng ở 4 mùa để xem có mùa nào khách hàng đặt hàng nhiều nhất không?
+	3. Xây dựng mô hình hồi quy logistic:

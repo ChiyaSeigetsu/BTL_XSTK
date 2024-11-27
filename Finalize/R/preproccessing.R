@@ -1,9 +1,20 @@
 # Cài đặt thư viện cần thiết
 install.packages("dplyr")
 install.packages("geosphere")
+install.packages("readxl")
+install.packages("ggplot2")
+install.packages("ggpubr")
+install.packages("ROCR")
 # Gọi thư viện cần thiết
-library(dplyr)
+library(carData)
+library(car)
 library(tools)
+library(dplyr)
+library(geosphere)
+library(readxl)
+library(ggplot2)
+library(ggpubr)
+library(ROCR)
 # 1: Làm sạch file dirty_data
 # 1.1: Đọc dữ liệu từ file dirty_data
 dirty_data = read.csv("./dirty_data.csv")
